@@ -4,17 +4,20 @@
   text-align: center;
   color: greenyellow;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .Q {
+  padding: 2px;
+  margin: 1em;
   background-color: rgb(168, 238, 122);
   font-size: 24px;
-  text-align: center;
   color: black;
-  margin: 1em 0;
-  padding: 2px;
 }
 .Ans {
   font-size: 24px;
-  text-align: light;
   text-indent: 1em;
   color: black;
   margin: 1em 0;
